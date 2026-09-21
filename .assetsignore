@@ -1,0 +1,36 @@
+# Exclude repo internals from Workers static asset uploads
+# This file uses .gitignore syntax. Place it in the ROOT of your assets directory.
+
+# --- Git / GitHub ---
+**/.git
+**/.github
+**/.gitignore
+
+# --- Dependencies ---
+**/node_modules
+**/package.json
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# --- Build tooling / config ---
+**/wrangler.jsonc
+**/wrangler.toml
+**/tsconfig.json
+**/vite.config.*
+**/.dev.vars*
+**/.wrangler
+
+# --- Repo metadata ---
+**/README.md
+**/README.*
+**/LICENSE
+**/LICENSE.*
+**/CNAME
+**/.DS_Store
+
+# --- Source files (uncomment if you have a build step and only want dist/ uploaded) ---
+# **/src/
+# **/*.ts
+# **/*.tsx
+# **/*.jsx
