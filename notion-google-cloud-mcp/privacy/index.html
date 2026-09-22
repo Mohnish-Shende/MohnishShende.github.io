@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/assets/styles-CuzoN6es.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+    />
+    <title>Privacy Policy — Notion Google Cloud MCP</title>
+    <meta
+      name="description"
+      content="Privacy policy for the Notion Google Cloud MCP personal integration operated by Mohnish Shende."
+    />
+    <meta property="og:title" content="Privacy Policy — Notion Google Cloud MCP" />
+    <meta
+      property="og:description"
+      content="How the Notion Google Cloud MCP integration uses Google OAuth credentials and Google Cloud data."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mohnish.ink/notion-google-cloud-mcp/privacy" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=imohnish-20260921" />
+  </head>
+  <body>
+    <div class="flex min-h-screen flex-col">
+      <header class="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
+        <div class="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">
+          <a class="flex items-center gap-2 font-display text-lg font-bold tracking-tight text-foreground" href="/notion-google-cloud-mcp">
+            <span class="h-2.5 w-2.5 rounded-full bg-primary" aria-hidden="true"></span>
+            Notion Google Cloud MCP
+          </a>
+          <a
+            class="font-mono text-xs uppercase tracking-widest text-primary"
+            href="/notion-google-cloud-mcp/privacy"
+            aria-current="page"
+          >Privacy</a>
+        </div>
+      </header>
+
+      <main class="flex-1">
+        <article class="mx-auto max-w-7xl px-6">
+          <header class="border-b border-border py-16 md:py-20">
+            <p class="font-mono text-xs uppercase tracking-[0.3em] text-primary">Notion Google Cloud MCP</p>
+            <h1 class="mt-4 max-w-3xl text-4xl font-bold leading-[1.05] tracking-tight text-foreground md:text-5xl">Privacy policy</h1>
+            <p class="mt-5 max-w-3xl text-base leading-relaxed text-muted-foreground md:text-lg">
+              This policy describes how the personal integration operated by Mohnish Shende uses Google OAuth authorization and Google Cloud data.
+            </p>
+            <p class="mt-4 font-mono text-xs uppercase tracking-widest text-muted-foreground">Last updated: 22 September 2026</p>
+          </header>
+
+          <div class="py-14 md:py-16">
+            <div class="grid max-w-3xl gap-10">
+              <section aria-labelledby="purpose">
+                <h2 id="purpose" class="font-display text-2xl font-bold text-foreground">1. Application purpose</h2>
+                <p class="mt-4 leading-relaxed text-muted-foreground">
+                  Notion Google Cloud MCP is a personal integration that allows an authorized Notion workflow or agent to authenticate with Google and access Google Cloud functionality through Google’s Cloud CLI MCP service. It is operated by Mohnish Shende and is not affiliated with, endorsed by, sponsored by, or owned by Google or Notion.
+                </p>
+              </section>
+
+              <section aria-labelledby="access">
+                <h2 id="access" class="font-display text-2xl font-bold text-foreground">2. Google OAuth and Google Cloud access</h2>
+                <p class="mt-4 leading-relaxed text-muted-foreground">The integration requests this Google OAuth scope:</p>
+                <p class="mt-4 border border-border bg-card p-4 font-mono text-sm text-primary" style="overflow-wrap: anywhere;">
+                  https://www.googleapis.com/auth/cloud-platform
+                </p>
+                <p class="mt-4 leading-relaxed text-muted-foreground">
+                  This is a broad Google Cloud scope. The effective access remains limited by the permissions assigned to the authorizing Google account and by Google Cloud IAM. The integration uses the authorization to perform Google Cloud operations requested through the authorized workflow; granting the scope does not itself add Google Cloud permissions to the account.
+                </p>
+              </section>
+
+              <section aria-labelledby="use">
+                <h2 id="use" class="font-display text-2xl font-bold text-foreground">3. Data accessed and how it is used</h2>
+                <p class="mt-4 leading-relaxed text-muted-foreground">
+                  Depending on the operation requested and the account’s permissions, the integration may access Google Cloud project and resource information, configuration, command inputs, command results, errors, and related metadata. That information is used only to authenticate the user, execute or support user-authorized Google Cloud operations, and return relevant results to the authorized Notion workflow or agent. It is not used for advertising or user profiling.
+                </p>
+              </section>
+
+              <section aria-labelledby="storage">
+                <h2 id="storage" class="font-display text-2xl font-bold text-foreground">4. Data storage and retention</h2>
+                <p class="mt-4 leading-relaxed text-muted-foreground">
+                  This public website repository contains static informational pages; it does not document the integration’s runtime architecture, operational logging, or persistence configuration. A categorical claim that Google Cloud data is never stored, or a fixed retention period, therefore cannot be made from the documented information. Google Cloud data may be processed by the runtime components needed to carry out an authorized request. For questions about whether specific operator-controlled data exists or to request its deletion, contact the operator using the address below.
+                </p>
+              </section>
+
+              <section aria-labelledby="sharing">
+                <h2 id="sharing" class="font-display text-2xl font-bold text-foreground">5. Data sharing</h2>
+                <p class="mt-4 leading-relaxed text-muted-foreground">
+                  Google Cloud data is not sold or rented. Information may be processed by Google services and by the authorized Notion workflow as inherent parts of the requested integration. The available repository does not establish whether any additional runtime infrastructure providers process operational data, so this policy does not make an unsupported claim that no such provider is involved.
+                </p>
+              </section>
+
+              <section aria-labelledby="credentials">
+                <h2 id="credentials" class="font-display text-2xl font-bold text-foreground">6. OAuth credentials and tokens</h2>
+                <p class="mt-4 leading-relaxed text-muted-foreground">
+                  OAuth credentials and tokens are used to authenticate authorized requests to Google services and must be treated as sensitive credentials. They are not intended to be published or used for unrelated purposes. Their exact storage mechanism and lifetime are determined by the integration’s runtime and Google’s OAuth controls; those implementation details are not present in this static website repository and are not asserted here.
+                </p>
+              </section>
+
+              <section aria-labelledby="revocation">
+                <h2 id="revocation" class="font-display text-2xl font-bold text-foreground">7. Revoking access</h2>
+                <p class="mt-4 leading-relaxed text-muted-foreground">
+                  A user may revoke the integration’s access through the third-party access or connected-app controls in the relevant Google Account. The user may also remove or disable the authorization used by the Notion workflow. Revocation prevents further authorized access through the revoked credentials, subject to Google’s OAuth behavior. Revocation does not by itself establish that any previously retained data has been deleted; deletion questions or requests should be sent to the operator.
+                </p>
+              </section>
+
+              <section aria-labelledby="contact">
+                <h2 id="contact" class="font-display text-2xl font-bold text-foreground">8. Contact</h2>
+                <p class="mt-4 leading-relaxed text-muted-foreground">
+                  Questions, access concerns, or deletion requests concerning this integration may be sent to Mohnish Shende at
+                  <a href="mailto:mohnish@mohnish.ink" class="text-primary hover:text-foreground">mohnish@mohnish.ink</a>.
+                </p>
+              </section>
+            </div>
+          </div>
+        </article>
+      </main>
+
+      <footer class="mt-24 border-t border-border">
+        <div class="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-3">
+          <div>
+            <p class="font-display text-lg font-bold text-foreground">Notion Google Cloud MCP</p>
+            <p class="mt-2 text-sm text-muted-foreground">A personal integration operated by Mohnish Shende.</p>
+          </div>
+          <nav aria-label="Application" class="font-mono text-sm">
+            <ul class="grid gap-2">
+              <li><a href="/notion-google-cloud-mcp" class="text-muted-foreground transition-colors hover:text-primary">Application</a></li>
+              <li><a href="/notion-google-cloud-mcp/privacy" class="text-primary" aria-current="page">Privacy</a></li>
+              <li><a href="/" class="text-muted-foreground transition-colors hover:text-primary">Main website</a></li>
+            </ul>
+          </nav>
+          <div class="font-mono text-sm">
+            <p class="text-muted-foreground">Contact: <a href="mailto:mohnish@mohnish.ink" class="text-primary hover:text-foreground">mohnish@mohnish.ink</a></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
